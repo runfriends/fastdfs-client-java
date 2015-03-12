@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/main/test"/>
+	<classpathentry excluding="main/java/|main/test/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.3.jar" sourcepath="C:/Users/me/.m2/repository/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
